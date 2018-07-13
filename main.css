@@ -1,0 +1,147 @@
+/*CSS for the body*/
+body {
+	font: small/1.2em Arial, Verdana, Georgia, sans-serif;
+	background-color: rgb(250, 250, 250);
+}
+
+/*General rule for all links*/
+a {
+	text-decoration: 	none;
+	color: 				black;
+	
+}
+
+/*CSS for the brown line above the header*/
+#brownStreak {
+	width: 				100%;
+	height: 			10px;
+	margin: 			0px 0px 0px 0px;
+	padding: 			0px;
+	background-color: 	#bf8040;
+	border: 			1px solid #bf8040;
+	position: 			absolute;
+	top: 				0px;
+	left: 				0px;
+}
+
+/*CSS for the header and everything in it*/
+header {
+	width: 				100%;
+	height: 			111px;
+	background-color: 	rgb(250, 250, 250);
+	position: 			absolute;
+	top: 				10px;
+	left: 				0px;
+	border-bottom: 		2px outset rgb(230, 230, 230);
+}
+
+/*Rule for all tableRows in the table displays. All table rows in the table display have the tableRow class.*/
+.tableRow {
+	display: 			table-row;
+}
+
+/*Rule for the logo of Starbuzz in the header*/
+#headerLogo {
+	border: 			1px solid black;
+	display: 			table-cell;
+	width: 				30%;
+	height: 			30%;
+}
+ /*Rule for the nav element in the header*/
+nav {
+	display: 			table-cell;
+	vertical-align: 	bottom;
+	text-align: 		left;
+	border: 			1px solid black;
+}
+
+/*Rule for the ul in the nav element in the header*/
+nav ul{
+	list-style: 		none;
+}
+
+/*Rule for the <li>'s inside the ul in the nav element in the header*/
+nav ul li {
+	display: 			inline;
+	margin: 			0px 2px 0px 2px;
+	text-align: 		left;
+	padding: 			5px 5px 15px 5px;
+	/* border: 1px solid black; */
+	position: 			relative;
+	bottom: 			0px;
+}
+
+/*Rules for the links and their states inside the ul in the nav element in the header*/
+nav ul li a{
+	padding: 			5px 10px 15px 10px;
+}
+nav ul li a:link {
+	color: 				black;
+}
+
+nav ul li a:visited {
+	color: 				black;
+}
+
+nav ul li a:hover {
+	color: 				rgb(230, 230, 230);
+	background: 		black;
+}
+/*Rule for the p element in the header. The one for the store locator.*/
+header p {
+	width: 				100px;
+	text-align: 		center;
+	float: 				right;
+}
+
+/*CSS for the section below the header and everything in it*/
+section#slideShow{
+	margin: 			112px 0px 0px 0px;
+}
+
+/*Rules for the images in the slideShow section*/
+#slideShow img {
+	width: 				50%;
+	height: 			50%;
+	margin: 			0px auto 0px auto;
+	padding:			0px;
+	border-spacing: 	0px;
+}
+
+/*CSS for the social media buttons below the main section*/
+#quickLinks ul {
+	list-style: 		none;
+}
+
+/*Rules for the <li>'s inside the ul in the quickLinks part of the page.*/
+#quickLinks ul li {
+	display: 			inline;
+	padding: 			0px 10px 0px 10px;
+}
+
+/*Rules for the social media buttons.*/
+#quickLinks ul li img {
+	border-radius: 		25%;
+	width: 				4%;
+	height: 			4%;
+	border: 			1px inset rgb(250, 250, 250);
+}
+
+/*Rules for the state of the links, the social media buttons.*/
+#quickLinks ul li a:hover {
+	opacity: 			0.6;
+}
+
+/*CSS for the footer*/
+footer.tableRow {
+	display: table;
+}
+
+#aboutUs ul {
+	display: table-cell;
+	list-style: none
+}
+
+#CustomerService {
+	display: table-cell;
+}
